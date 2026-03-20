@@ -1,0 +1,17 @@
+packages:
+  "framer-motion": "For page transitions and smooth UI animations"
+  "zustand": "For cart state management"
+  "date-fns": "For date formatting in reservations and orders"
+  "recharts": "For admin dashboard charts"
+  "react-hook-form": "For form state"
+  "@hookform/resolvers": "For zod validation"
+images:
+  - path: "artifacts/little-village/public/images/hero-bg.png"
+    description: "A stunning, atmospheric, dark, moody photograph of an elegant rustic Indian restaurant setting, warm glowing ambient lighting, rich deep red and gold tones, elegant table setup, depth of field."
+    aspect_ratio: "16:9"
+  - path: "artifacts/little-village/public/images/about-img.png"
+    description: "Chef plating a beautiful traditional biryani dish in a premium kitchen, warm tones, high quality, cinematic lighting."
+    aspect_ratio: "4:3"
+notes:
+  - Hooks are imported from @workspace/api-client-react
+  - Restaurant ID is hardcoded to "little-village" for all requests
